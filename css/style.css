@@ -1,0 +1,267 @@
+.buttoncv {
+	
+width: 250px;
+
+margin-top: 10px;
+padding: 20px 20px;
+font-size: 18px;
+line-height: 1px;
+border-radius: 2px;
+background-color: #1A237E;
+color: #ffffff;
+border-width: 0;
+display: inline-block;
+cursor: pointer; 
+
+}
+
+.pageHEAD{
+	font-size: 15px;
+	text-align: center;
+}
+
+.pageHEAD h2 {
+		padding-bottom: 20px;
+}
+
+.form-group {
+margin-left: 8.333333%; 
+}
+.row{
+	width: auto;
+}
+.row h2 {
+    margin-top: -50px; 
+	color: #ffffff;
+}
+
+/*Changes Contact Color */
+.star-primary {
+	color: #2c3e50;
+}
+
+.row hr.star-primary:after {
+	color: #2c3e50;
+	visibility: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #ffffff;
+}
+
+/*Change Navbar Links color */
+#pageID li a:hover,
+#pageID li a:focus{
+	color: #FF9800;
+	
+}
+
+/*Navbar Name color*/
+#MereID a {
+	color: white;
+	font-size: 30px;
+}
+
+#MereID a:hover{
+	color: #1A237E;
+}
+
+.page-scroll {
+	font-size: 15px;
+
+}
+
+
+
+/*page colorand layout spacing*/
+
+header {
+	background-color: #3F51B5;
+}
+.navbar{
+	background-color: #1A237E;
+}
+#demoreel{
+    background-color: #000000;
+	padding: 150px;
+	position: relative;
+	padding-left: 15px;
+    padding-right:15px;
+
+} 
+
+#portfolio{
+	background-color: #3F51B5;
+	/*background-color: #3F51B5;*/
+	padding: 180px;
+	position: relative;
+	padding-left: 15px;
+    padding-right:15px;
+ 
+}   
+
+#portfolio_page{
+	background-color: #333333;
+	width:auto;
+	height: 100%;
+
+}
+
+.row {
+	padding-top: 20px;
+}
+#about{
+	background-color: #000000;
+	padding: 150px;
+	height: 800px;
+	position: relative;
+	padding-left: 15px;
+    padding-right:15px;
+}
+#contact{
+	padding-top: 200px;
+	height: 700px;
+	background-color: #3F51B5;
+	position: relative;
+	padding-left: 15px;
+    padding-right:15px;
+}
+
+header .intro-text .name {
+	font-size: 1.5em;
+    font-weight: 200px;
+}
+
+hr.star-light {
+	border-color: #2c3e50;
+}
+hr.star-light:after {
+	visibility: hidden;
+
+}
+
+.intro-text {
+	color: #1A237E;
+}
+
+footer .footer-below {
+	background-color: #1A237E;
+}
+
+/*portfolio section*/
+
+.portfolio-modal .modal-content {
+	padding:0px 0px;
+
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	border-radius: 4px;
+	background: #333333;
+	-webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    transition: all ease .2s;
+	 
+}
+text {
+	font-size: 30px;
+	
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 0.5;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+
+	margin-top: -20px;
+}
+
+.img-responsive {
+	border-radius: 4px;
+
+}
+
+.contentimage{
+	display:block;
+	max-width:100%;
+	height:auto
+	
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus
+{color:#ffffff;
+background-color: transparent;
+}
+
+header .container{
+	height: 800px;
+	width: auto;
+
+}
+
+
+/*video autoresize*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	/**/
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*page close button*/
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    background-color: transparent;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(0deg);
+}
+
+
+body{
+	color: #ffffff;
+	
+}
+
+.icon{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.icon2{
+	display: block;
+}
+
+
+.pagetext{
+	display: inline-block;
+	text-align: left;
+    width: 100%;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+textsml{
+	font-size: 20px;
+}
