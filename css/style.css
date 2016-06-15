@@ -18,7 +18,7 @@ cursor: pointer;
 .pageHEAD{
 	font-size: 15px;
 	text-align: center;
-    margin-right: 15px;
+   
 
 }
 
@@ -73,7 +73,7 @@ a.active {
 }
 
 #MereID a:hover{
-	color: #1A237E;
+	/*color: #1A237E;*/color: #FF9800;
 }
 
 .page-scroll {
@@ -156,7 +156,12 @@ hr.star-light:after {
 
 footer .footer-below {
 	background-color: #1A237E;
+	height: 25px;
+	padding-top: 9px;
 }
+
+
+
 
 /*portfolio section*/
 
@@ -260,6 +265,7 @@ body{
 
 .icon2{
 	display: block;
+	width:300px;
 }
 
 
@@ -282,6 +288,13 @@ textsml{
     height:800px;font-size:18px; padding:5px;
 }
 
+.toggleIcon{
+	position: absolute;
+	margin-left: -14px;
+	margin-top: -2px;
 
-
-
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #2c3e50;
