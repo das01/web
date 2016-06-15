@@ -18,10 +18,14 @@ cursor: pointer;
 .pageHEAD{
 	font-size: 15px;
 	text-align: center;
+    margin-right: 15px;
+
 }
 
 .pageHEAD h2 {
 		padding-bottom: 20px;
+		padding-right: 15px; 
+
 }
 
 .form-group {
@@ -31,7 +35,8 @@ margin-left: 8.333333%;
 	width: auto;
 }
 .row h2 {
-    margin-top: -50px; 
+    margin-top: -50px;
+
 	color: #ffffff;
 }
 
@@ -183,8 +188,12 @@ text {
 
 .img-responsive {
 	border-radius: 4px;
+	position: relative;
+	margin: auto;
+	padding-right: 15px;
 
 }
+
 
 .contentimage{
 	display:block;
@@ -203,6 +212,7 @@ background-color: transparent;
 header .container{
 	height: 800px;
 	width: auto;
+	background-image: transparent;
 
 }
 
@@ -239,8 +249,7 @@ header .container{
 
 
 body{
-	color: #ffffff;
-	
+	color: #ffffff;	
 }
 
 .icon{
@@ -265,3 +274,14 @@ body{
 textsml{
 	font-size: 20px;
 }
+
+.introbg{
+	background-image:url(img/profile_BG.jpg );
+    position: relative;
+    width:auto;
+    height:800px;font-size:18px; padding:5px;
+}
+
+
+
+
