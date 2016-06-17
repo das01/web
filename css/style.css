@@ -117,7 +117,7 @@ header {
 }   
 
 #portfolio_page{
-	background-color: #333333;
+	background-color: transparent;
 	width:auto;
 	height: 100%;
 
@@ -172,6 +172,16 @@ footer .footer-below {
 /*portfolio section*/
 
 .portfolio-modal .modal-content {
+	/*background: gradient( #000000,transparent);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.8+0,0.8+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+	opacity: 1;
 	padding:0px 0px;
 }
 
@@ -211,12 +221,7 @@ text {
 }
 
 
-.contentimage{
-	display:block;
-	max-width:100%;
-	height:auto
-	
-}
+
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -310,3 +315,92 @@ textsml{
   color: #ffffff;
   background-color: #ffffff;
   border-color: #2c3e50;
+}
+
+
+ .portfolioContainer{
+ 	
+    height: 800px;
+	width: auto;
+	
+ }
+
+
+ /*content image*/
+
+ .contentimage{
+	display:block;
+	max-width:100%;
+	height:auto
+	
+}
+
+#contentImage,
+#contentImage1
+{
+	 cursor: pointer;
+    transition: 0.3s;
+    height: 100%;
+    width: 100%;
+}
+
+#contentImage :hover
+#contentImage1 {
+	opacity: 0.8;
+}
+
+.contentModal{    
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contentmodal-content {
+  position: relative;
+  
+  
+  width: 75%;
+  background-color: #000000;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  outline: 0;
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #1A237E;
+  /*background-color: rgb(0, 173, 239);*/
+  border-color: #1A237E;
+}
