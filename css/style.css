@@ -18,15 +18,6 @@ cursor: pointer;
 .pageHEAD{
 	font-size: 15px;
 	text-align: center;
-
-   
-
-}
-
-.pageHEAD h2 {
-		padding-bottom: 5px;
-		padding-right: 15px; 
-
 }
 
 .form-group {
@@ -34,11 +25,10 @@ margin-left: 8.333333%;
 }
 .row{
 	width: auto;
+	margin-right:0px; 
 }
 .row h2 {
-    margin-top: -50px;
-
-	color: #ffffff;
+	color: #fff;
 }
 
 /*Changes Contact Color */
@@ -90,55 +80,66 @@ a.active {
 /*page colorand layout spacing*/
 
 header {
-	background-color: #3F51B5;
+	background-color: #2a2a2a;    
 }
+
+.bgimage{
+	    
+	    background-image: url(../img/profile_BG.jpg) ;         
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #2a2a2a;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        }  
+
+
+
 .navbar{
 	background-color: #1A237E;
 }
 #demoreel{
-    background-color: #000000;
+    background-color: #2a2a2a;
 	padding: 120px;
 	position: relative;
+	margin-bottom: auto;
 	padding-left: 15px;
     padding-right:15px;
-  
-
 } 
-
-
 
 #portfolio{
 	/*background-color: #3F51B5;*/
 	background-color: #2a2a2a;
-	padding: 120px;
+	padding-top: 120px;
+    margin-bottom: auto;
 	position: relative;
 	padding-left: 15px;
-    padding-right:15px;
-
- 
+    padding-right: 15px;
 }   
 
 #portfolio_page{
 	background-color: transparent;
 	width:auto;
-	height: 100%;
+	height: 1080px;
 
 }
 
-.row {
-	padding-top: 20px;
-}
 #about{
-	background-color: #000000;
-	padding: 120px;
-	height: 800px;
+	background-color: #2a2a2a;
+	padding-top: 120px;
+	height: 1080px;
+	margin-bottom: auto;
 	position: relative;
 	padding-left: 15px;
     padding-right:15px;
 }
+
 #contact{
 	padding-top: 200px;
-	height: 700px;
+	height: 1080px;
+	margin-bottom: auto;
 	background-color: #3F51B5;
 	position: relative;
 	padding-left: 15px;
@@ -146,8 +147,19 @@ header {
 }
 
 header .intro-text .name {
-	font-size: 1.5em;
+	display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 2em;
     font-weight: 200px;
+}
+
+header .intro-text .skills {
+	    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
 }
 
 hr.star-light {
@@ -159,7 +171,7 @@ hr.star-light:after {
 }
 
 .intro-text {
-	color: #1A237E;
+	color: #ffffff;
 }
 
 footer .footer-below {
@@ -233,7 +245,8 @@ background-color: transparent;
 }
 
 header .container{
-	height: 800px;
+
+	height: 1080px;
 	width: auto;
 	background-image: transparent;
 
@@ -300,12 +313,8 @@ textsml{
 	font-size: 20px;
 }
 
-.introbg{
-	background-image:url(img/profile_BG.jpg );
-    position: relative;
-    width:auto;
-    height:800px;font-size:18px; padding:5px;
-}
+
+
 
 .toggleIcon{
 	position: absolute;
@@ -326,7 +335,6 @@ textsml{
 	width: auto;
 	
  }
-
 
  /*content image*/
 
