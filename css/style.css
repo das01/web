@@ -15,9 +15,15 @@ cursor: pointer;
 
 }
 
+.demoreelVideo{
+	margin-left: 5%;
+	width:90%;
+}
+
 .pageHEAD{
 	font-size: 15px;
 	text-align: center;
+	padding: 15px;
 }
 
 .form-group {
@@ -27,10 +33,20 @@ margin-left: 8.333333%;
 	width: auto;
 	margin-right:0px; 
 }
+section h2{
+	text-align: center;
+}
 .row h2 {
 	color: #fff;
+	padding-bottom: 20px;
+}
+.modal-content h2{
+	padding-bottom: 30px;
 }
 
+.modal-content{
+	padding-top: 80px;
+}
 /*Changes Contact Color */
 .star-primary {
 	color: #2c3e50;
@@ -53,9 +69,12 @@ a.active {
 /*Change Navbar Links color */
 #pageID li a:hover,
 #pageID li a:focus{
-	color: #FF9800;
-	
+	color: #8261b9;	
 }
+.navbar{
+	background-color: #98b961;
+}
+
 
 /*Navbar Name color*/
 #MereID a {
@@ -64,7 +83,7 @@ a.active {
 }
 
 #MereID a:hover{
-	/*color: #1A237E;*/color: #FF9800;
+	color: #8261b9;
 }
 
 .page-scroll {
@@ -76,6 +95,12 @@ a.active {
 	padding-right: 20px;
 }
 
+footer .footer-below {
+	background-color: #98b961;
+	height: 25px;
+	padding-top: 9px;
+}
+
 
 /*page colorand layout spacing*/
 
@@ -85,7 +110,7 @@ header {
 
 .bgimage{
 	    
-	    background: url(../img/profile_BG.jpg)  no-repeat bottom center scroll;        
+	    background: url(../img/profile_BG.png)  no-repeat bottom center scroll;        
         width: 100%;
         height: 100%;
         background-attachment: fixed;
@@ -97,16 +122,17 @@ header {
 
 
 
-.navbar{
-	background-color: #1A237E;
-}
+
 #demoreel{
+	
     background-color: #2a2a2a;
-	padding: 120px;
+	padding: 100px;
+	padding-top: 90px;
 	position: relative;
 	margin-bottom: auto;
 	padding-left: 15px;
     padding-right:15px;
+    height: 1080px;
 } 
 
 #portfolio{
@@ -128,7 +154,7 @@ header {
 
 #about{
 	background-color: #2a2a2a;
-	padding-top: 120px;
+	padding-top: 200px;
 	height: 1080px;
 	margin-bottom: auto;
 	position: relative;
@@ -136,15 +162,20 @@ header {
     padding-right:15px;
 }
 
+.col-lg-10{
+	padding-top: 100px;
+}
+/*contact page*/
 #contact{
-	padding-top: 200px;
-	height: 1080px;
+	padding-top: 120px;
+	height: 900px;
 	margin-bottom: auto;
-	background-color: #3F51B5;
+	background-color: #2a2a2a;
 	position: relative;
 	padding-left: 15px;
     padding-right:15px;
 }
+
 
 header .intro-text .name {
 	display: block;
@@ -174,11 +205,7 @@ hr.star-light:after {
 	color: #ffffff;
 }
 
-footer .footer-below {
-	background-color: #1A237E;
-	height: 25px;
-	padding-top: 9px;
-}
+
 
 
 
@@ -192,6 +219,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.8) 0%, rgb
 background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
 background: radial-gradient(ellipse at center,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height: auto;
 
 
 
@@ -274,8 +302,8 @@ header .container{
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-left: 0px;
     background-color: transparent;
     -webkit-transform: rotate(45deg);
@@ -297,7 +325,8 @@ body{
 
 .icon2{
 	display: block;
-	width:300px;
+	width:1000px;
+	height: 50px;
 }
 
 
