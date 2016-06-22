@@ -23,38 +23,34 @@ cursor: pointer;
 .pageHEAD{
 	font-size: 15px;
 	text-align: center;
-	padding: 15px;
+}
+
+.pageHEAD h2 {
+		padding-bottom: 5px;
+		padding-right: 15px; 
 }
 
 .form-group {
 margin-left: 8.333333%; 
 }
+
 .row{
 	width: auto;
 	margin-right:0px; 
-}
-section h2{
-	text-align: center;
+	padding-top: 20px;
 }
 .row h2 {
 	color: #fff;
 	padding-bottom: 20px;
+	margin-top: -50px;
 }
+
 .modal-content h2{
 	padding-bottom: 30px;
 }
 
 .modal-content{
 	padding-top: 80px;
-}
-/*Changes Contact Color */
-.star-primary {
-	color: #2c3e50;
-}
-
-.row hr.star-primary:after {
-	color: #2c3e50;
-	visibility: hidden;
 }
 
 a,
@@ -71,8 +67,9 @@ a.active {
 #pageID li a:focus{
 	color: #8261b9;	
 }
+
 .navbar{
-	background-color: #98b961;
+	background-color: #98b961;	
 }
 
 
@@ -85,6 +82,8 @@ a.active {
 #MereID a:hover{
 	color: #8261b9;
 }
+
+
 
 .page-scroll {
 	font-size: 15px;
@@ -127,18 +126,21 @@ header {
 	
     background-color: #2a2a2a;
 	padding: 100px;
-	padding-top: 90px;
+	padding-top: 150px;
 	position: relative;
 	margin-bottom: auto;
 	padding-left: 15px;
     padding-right:15px;
     height: 1080px;
+
 } 
 
 #portfolio{
 	/*background-color: #3F51B5;*/
 	background-color: #2a2a2a;
-	padding-top: 120px;
+	height: 1080px;
+	padding: 100px;
+	padding-top: 150px;
     margin-bottom: auto;
 	position: relative;
 	padding-left: 15px;
@@ -165,17 +167,16 @@ header {
 .col-lg-10{
 	padding-top: 100px;
 }
-/*contact page*/
+
 #contact{
-	padding-top: 120px;
-	height: 900px;
+	padding-top: 200px;
+	height: 800px;
 	margin-bottom: auto;
 	background-color: #2a2a2a;
 	position: relative;
 	padding-left: 15px;
     padding-right:15px;
 }
-
 
 header .intro-text .name {
 	display: block;
@@ -204,9 +205,6 @@ hr.star-light:after {
 .intro-text {
 	color: #ffffff;
 }
-
-
-
 
 
 
@@ -273,10 +271,10 @@ background-color: transparent;
 }
 
 header .container{
-
 	height: 1080px;
 	width: auto;
 	background-image: transparent;
+
 
 }
 
@@ -319,14 +317,20 @@ body{
 
 .icon{
 	margin-top: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	display: inline-block;
 }
 
 .icon2{
 	display: block;
-	width:1000px;
-	height: 50px;
+	width: 300px;
+	
+	
+}
+
+.col-lg-10{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 
@@ -339,7 +343,7 @@ body{
 }
 
 textsml{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
