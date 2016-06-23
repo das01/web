@@ -138,14 +138,16 @@ header {
 #portfolio{
 	/*background-color: #3F51B5;*/
 	background-color: #2a2a2a;
-	height: 1080px;
+	height: auto;
 	padding: 100px;
 	padding-top: 150px;
     margin-bottom: auto;
 	position: relative;
 	padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 200px;
 }   
+
 
 #portfolio_page{
 	background-color: transparent;
@@ -156,8 +158,9 @@ header {
 
 #about{
 	background-color: #2a2a2a;
-	padding-top: 200px;
+	padding-top: 150px;
 	height: 1080px;
+
 	margin-bottom: auto;
 	position: relative;
 	padding-left: 15px;
@@ -165,7 +168,7 @@ header {
 }
 
 .col-lg-10{
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 #contact{
