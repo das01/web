@@ -7,7 +7,7 @@ padding: 20px 20px;
 font-size: 18px;
 line-height: 1px;
 border-radius: 2px;
-background-color: #1A237E;
+background-color: #98b961;
 color: #ffffff;
 border-width: 0;
 display: inline-block;
@@ -27,7 +27,7 @@ cursor: pointer;
 
 .pageHEAD h2 {
 		padding-bottom: 5px;
-		padding-right: 15px; 
+		/*padding-right: 15px;*/ 
 }
 
 .form-group {
@@ -148,6 +148,13 @@ header {
     padding-bottom: 200px;
 }   
 
+ptext{
+	text-align: left;
+	font-size: 1em;
+	display: block;
+	padding-bottom: 15px;
+}
+
 
 #portfolio_page{
 	background-color: transparent;
@@ -228,7 +235,12 @@ height: auto;
 	padding:0px 0px;
 }
 
+#portfolio .portfolio-item .portfolio-link{
+	max-width: 355px;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption {
+
 	background: #333333;
 	-webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -236,7 +248,8 @@ height: auto;
   }
 
 text {
-	font-size: 30px;	
+	font-size: 30px;
+	text-align: center;	
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {	
