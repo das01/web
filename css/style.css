@@ -2,8 +2,8 @@
 	
 width: 250px;
 
-margin-top: 10px;
-padding: 20px 20px;
+margin-top: 0px;
+padding: 15px 15px;
 font-size: 18px;
 line-height: 1px;
 border-radius: 2px;
@@ -46,11 +46,18 @@ margin-left: 8.333333%;
 }
 
 .modal-content h2{
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
+
+.portfolio-modal .modal-content h2 {
+	font-size: 2em;
+}
+
+
 
 .modal-content{
 	padding-top: 80px;
+	text-align: center;
 }
 
 a,
@@ -152,7 +159,7 @@ ptext{
 	text-align: left;
 	font-size: 1em;
 	display: block;
-	padding-bottom: 15px;
+	padding-bottom:20px;
 }
 
 
@@ -233,6 +240,7 @@ height: auto;
 
 	opacity: 1;
 	padding:0px 0px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link{
@@ -298,6 +306,9 @@ header .container{
 /*video autoresize*/
 
 .videoWrapper {
+	border-style: solid;
+    border-width: 4px;
+    border-color: #98b961;
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 9px;
@@ -314,10 +325,21 @@ header .container{
 
 /*page close button*/
 
+.portfolio-modal .close-modal{
+	position: absolute;
+    top: 25px;
+    right: 25px;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+    cursor: pointer;
+
+}
+
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-left: 0px;
     background-color: transparent;
     -webkit-transform: rotate(45deg);
@@ -355,7 +377,15 @@ body{
 	text-align: left;
     width: 100%;
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+}
+
+.pageHead{
+	display: inline-block;
+	text-align: center;
+    width: 100%;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 textsml{
@@ -378,26 +408,29 @@ textsml{
 }
 
 
- .portfolioContainer{
+.portfolioContainer{
  	
-    height: 800px;
-	width: auto;
+  height: 800px;
+  width: auto;
 	
- }
+}
 
  /*content image*/
+
 
  .contentimage{
 	display:block;
 	max-width:100%;
-	height:auto
-	
+	height:auto;
+	border-style: solid;
+    border-width: 4px;
+    border-color: #98b961;
 }
 
 #contentImage,
 #contentImage1
 {
-	 cursor: pointer;
+	cursor: pointer;
     transition: 0.3s;
     height: 100%;
     width: 100%;
@@ -407,6 +440,12 @@ textsml{
 #contentImage1 {
 	opacity: 0.8;
 }
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 0px;    
+}
+
+
 
 .contentModal{    
 	display: none; /* Hidden by default */
@@ -443,8 +482,6 @@ textsml{
 
 .contentmodal-content {
   position: relative;
-  
-  
   width: 75%;
   background-color: #000000;
   border: 1px solid #999999;
@@ -459,7 +496,8 @@ textsml{
 
 .btn-default {
   color: #ffffff;
-  background-color: #1A237E;
+  background-color: #98b961;
   /*background-color: rgb(0, 173, 239);*/
-  border-color: #1A237E;
+  border-color: #98b961;
 }
+
