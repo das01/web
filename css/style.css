@@ -515,7 +515,10 @@ textsml{
 .btn-default {
   color: #ffffff;
   background-color: #98b961;
-  /*background-color: rgb(0, 173, 239);*/
   border-color: #98b961;
 }
 
+.btn-default:hover {
+	background-color: #8261b9; 
+	border-color: #8261b9;
+}
