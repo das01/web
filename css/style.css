@@ -3,8 +3,8 @@
 width: 250px;
 
 margin-top: 0px;
-padding: 15px 15px;
-font-size: 18px;
+padding: 20px 20px;
+font-size: 20px;
 line-height: 1px;
 border-radius: 2px;
 background-color: #98b961;
@@ -13,6 +13,11 @@ border-width: 0;
 display: inline-block;
 cursor: pointer; 
 
+}
+
+.buttoncv:hover{
+	background-color: #8261b9; 
+	border-color: #8261b9;
 }
 
 .demoreelVideo{
@@ -162,6 +167,12 @@ ptext{
 	padding-bottom:30px;
 }
 
+para{
+    text-align: left;
+	font-size: 1em;
+	display: block;
+	padding-bottom:0px;
+}
 
 #portfolio_page{
 	background-color: transparent;
@@ -396,6 +407,10 @@ body{
 	margin-top: 20px;
 	padding-bottom: 20%;
 	
+}
+
+.buttonSpace{
+	margin-top: 80px;
 }
 
 .pageHead{
